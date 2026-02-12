@@ -20,7 +20,6 @@ A lightweight, terminal-based reminder system that plays random audio files at r
 
 * **Dynamic Playlist:** Automatically scans the `sound_assets` folder for `.mp3` and `.wav` files on startup.
 * **Randomized Intervals:** Keeps reminders unpredictable by generating a random duration (default: 22s to 360s) for every loop.
-* **Live Countdown:** Displays a real-time countdown timer in the terminal that overwrites the previous line for a clean UI.
 * **Robust Audio Engine:** Uses `mciSendString` with absolute path conversion to reliably play audio formats that standard `PlaySound` cannot handle.
 
 ---
@@ -31,7 +30,6 @@ To compile and run this project, you need:
 
 1.  **Operating System:** Windows (Required for `windows.h` and `winmm.lib`).
 2.  **Compiler:** GCC (MinGW) or MSVC with support for **C++17**.
-3.  **Audio Files:** A collection of `.mp3` or `.wav` files.
 
 ---
 
